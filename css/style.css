@@ -91,11 +91,14 @@ color: var(--brand-color);
 }
 
 .telephone {
-    color: var(--tel-text);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
+display: flex;
+justify-content: center;
+align-items: center;
+color: var(--tel-text);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.02em;
 }
 
 .telephone:hover,
@@ -109,21 +112,10 @@ height: 16px;
 fill: currentColor;
 }
 
-.icon-mail:hover,
-.icon-mail:focus {
-fill: var(--focus-color);
-}
-
 .icon-mail {
 width: 16px;
 height: 12px;
 fill: currentColor;
-}
-
-.icon-phone,
-.icon-mail {
-align-items: center;
-justify-content: center;
 }
 
 /* Hero */
@@ -187,7 +179,11 @@ width: 270px;
 }
 
 .dignity-list li:not(:first-child) {
-padding-left: 30px;
+margin-left: 30px;
+}
+
+.degnity-icon {
+padding-bottom: 30px;
 }
 
 .dignity-title {
@@ -245,7 +241,6 @@ justify-content: space-between;
 .table-list li {
 background-color: #FFFFFF;
 width: 270px;
-height: 368px;
 }
 
 .team {
@@ -277,13 +272,81 @@ color: var(--tel-text);
 font-size: 16px;
 line-height: 1.2;
 letter-spacing: 0.03em;
-padding-bottom: 30px;
+padding-bottom: 16px;
+}
+
+.social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+}
+
+.social-link:hover,
+.social-link:focus {
+background-color: #2196F3;
+color: #FFFFFF;
+}
+
+.social-list {
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .our-teem {
 background-color: #F5F4FA;
 display: flex;
 }
+
+/* Klients */
+
+.clients {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.client-icon:hover,
+.client-icon:focus {
+color: #2196F3;
+}
+
+.client-icon {
+fill: currentColor;
+}
+
+.client-spisok {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    border: #AFB1B8;
+}
+
+
+
+.client-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.client-list {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #AFB1B8;
+    border-radius: 4px;
+}
+
+.client-icon {
+    width: 170px;
+    height: 90px;
+    color: #AFB1B8;
+  border: #AFB1B8;
+
+}
+
 
 /* Down */
 
