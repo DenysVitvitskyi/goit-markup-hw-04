@@ -66,16 +66,20 @@ justify-content: space-between;
 align-items: center;
 }
 
-.nav-list li{
+.nav-list li:not(:first-child){
 margin-left: 50px;
+}
+
+.nav-list {
+    padding-left: 93px;
 }
 
 .contact-list li:last-child{
-margin-left: 50px;
+margin-left: 30px;
 }
 
 .contact-list {
-margin-left: 331px;
+margin-left: 305px;
 }
 
 .brand {
